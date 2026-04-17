@@ -1,15 +1,14 @@
 #include <iostream>
 using namespace std;
-int main() {
+int main() 
+{
     const int MAX = 100;
     int ids[MAX];
     string names[MAX];
     float grades[MAX][10]; 
     int gradeCount[MAX];
-
     int studentCount = 0;
     int choice;
-
     do {
         cout << "\n===== Student Grade System =====\n";
         cout << "1. Add Student\n";
@@ -31,7 +30,8 @@ int main() {
 
             cout << "Student added!\n";
         }
-        else if (choice == 2) {
+        else if (choice == 2)
+        {
             int id;
             cout << "Enter Student ID: ";
             cin >> id;
